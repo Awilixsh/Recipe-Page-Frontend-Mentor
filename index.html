@@ -13,13 +13,28 @@
 	body {
 		background-color: hsl(30, 54%, 90%);
 	}
-	.container {
-		background-color: hsl(0, 0%, 100%);	
-		margin: 110px auto auto auto;
-		border-radius: 30px;
-		width: 660px;
-		padding: 3%;
+	@media screen and (min-width:391px){
+		.container {
+			background-color: hsl(0, 0%, 100%);	
+			margin: 110px auto auto auto;
+			border-radius: 30px;
+			max-width: 660px;
+			padding: 3%;
+		}
+		img{
+			max-width: 100%;
+			border-radius: 30px;
+		}
 	}
+	@media screen and (max-width:390px){
+		.container {
+			background-color: hsl(0, 0%, 100%);	
+		}
+		img{
+			max-width: 100%;;
+		}
+	}
+	
 	.prep-container{
 		background-color: hsl(330, 100%, 98%);
 		margin: auto;
@@ -27,9 +42,6 @@
 		padding-bottom: 1%;
 		padding-left: 3%;
 		padding-right: 3%;
-	}
-	img{
-		border-radius: 30px;
 	}
 	@font-face{
 		font-family: young-serif;
@@ -91,7 +103,7 @@
 </head>
 <body>
 	<div class='container'>
-		<img name='images-main' src='./assets/images/image-omelette.jpeg' width='660px'>
+		<img name='images-main' src='./assets/images/image-omelette.jpeg'>
 		<br>
 		<h1 class='header-title'>
 			Simple Omelette Recipe
@@ -138,13 +150,13 @@
 		<div class='outfit-font'>
 		  <h5 class = 'header-sub'>Nutrition</h5>
 		  <p class = 'padd-down txt-color'> The table below shows nutritional values per serving without the additional fillings. <p>
-			<p class='txt-color'>&emsp;&emsp;Calories&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b class ='nutri-color'>277kcal</b></p>
+			<p class='txt-color'>&emsp;&emsp;Calories&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b class ='nutri-color'>277kcal</b></p>
 			<hr>
-			<p class='txt-color'>&emsp;&emsp;Carbs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b class ='nutri-color'>0g</b></p>
+			<p class='txt-color'>&emsp;&emsp;Carbs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b class ='nutri-color'>0g</b></p>
 			<hr>
-			<p class='txt-color'>&emsp;&emsp;Protein&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<b class ='nutri-color'>20g</b></p>
+			<p class='txt-color'>&emsp;&emsp;Protein&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<b class ='nutri-color'>20g</b></p>
 			<hr>
-			<p class='txt-color'>&emsp;&emsp;Fat&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b class ='nutri-color'>22g</b></p>
+			<p class='txt-color'>&emsp;&emsp;Fat&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b class ='nutri-color'>22g</b></p>
 		</div>
 	</div>
 	  
