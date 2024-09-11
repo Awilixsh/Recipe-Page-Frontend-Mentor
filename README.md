@@ -19,12 +19,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ![Recipe page](./Recipe-page-screenshot-example.png)
 
-## My process
-
-### Built with
-
-- CSS Grid
-
 ## Author
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
