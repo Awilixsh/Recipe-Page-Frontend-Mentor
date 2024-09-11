@@ -6,10 +6,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -21,5 +18,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
+- Frontend Mentor - [@Awilixsh](https://www.frontendmentor.io/profile/Awilixsh)
